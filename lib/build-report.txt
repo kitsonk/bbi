@@ -1,0 +1,185 @@
+Build started: Fri May 10 2013 07:39:30 GMT+0100 (BST)
+Build application version: 1.7.0dev (23930)
+Messages:
+info(103) Optimizing module complete.
+	/Users/kitsonk/github/bbi/lib/dojo/dojo.js (compile time:4.318s)
+info(106) Optimizing CSS.
+	file: /Users/kitsonk/github/bbi/src/dojo/_firebug/firebug.css
+	file: /Users/kitsonk/github/bbi/src/dojo/resources/dnd.css
+	file: /Users/kitsonk/github/bbi/src/dojo/resources/dojo.css
+info(107) Package Version:
+	package: dojo; version: 1.9.0dev
+	package: app; version: 1.0.0
+warn(216) dojo/has plugin resource could not be resolved during build-time.
+	plugin resource id: dom-addeventlistener?:./aspect; reference module id: dojo/on
+	plugin resource id: host-browser?dom-addeventlistener?:../on:; reference module id: dojo/request/watch
+warn(224) A plugin dependency was encountered but there was no build-time plugin resolver.
+	module: dojo/request; plugin: dojo/request/default
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/registry; plugin: dojo/request/default
+Layer Contents:
+dojo/dojo:
+	dojo/dojo
+	app/main
+
+Optimizer Messages:
+/Users/kitsonk/github/bbi/lib/dojo/dojo.js:
+dojo.js.uncompressed.js:148: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:158: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:189: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:206: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:544: WARNING - unreachable code
+					if( 0  && p=="async"){
+					                     ^
+
+dojo.js.uncompressed.js:636: WARNING - unreachable code
+		if( 0  ||  0 ){
+		              ^
+
+dojo.js.uncompressed.js:673: WARNING - unreachable code
+		if( 0 ){
+		       ^
+
+dojo.js.uncompressed.js:688: WARNING - unreachable code
+		if( 0 ){
+		       ^
+
+dojo.js.uncompressed.js:700: WARNING - unreachable code
+	}else{
+	     ^
+
+dojo.js.uncompressed.js:716: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:729: WARNING - unreachable code
+				if( 0  && comboPending && !comboPendingTimer){
+				                                             ^
+
+dojo.js.uncompressed.js:828: WARNING - unreachable code
+				if( 0 ){
+				       ^
+
+dojo.js.uncompressed.js:833: WARNING - unreachable code
+				if( 0 ){
+				       ^
+
+dojo.js.uncompressed.js:920: WARNING - unreachable code
+			if( 0 ){
+			       ^
+
+dojo.js.uncompressed.js:994: WARNING - unreachable code
+			}else if( 0 ){
+			             ^
+
+dojo.js.uncompressed.js:1025: WARNING - unreachable code
+				if( 0  && legacyMode == sync && !plugin.executed){
+				                                                 ^
+
+dojo.js.uncompressed.js:1097: WARNING - unreachable code
+			if( 0 ){
+			       ^
+
+dojo.js.uncompressed.js:1207: WARNING - unreachable code
+				if( 0 ){
+				       ^
+
+dojo.js.uncompressed.js:1282: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:1349: WARNING - unreachable code
+				if( 0 ){
+				       ^
+
+dojo.js.uncompressed.js:1382: WARNING - unreachable code
+				if( 0 ){
+				       ^
+
+dojo.js.uncompressed.js:1422: WARNING - unreachable code
+					if( 0  && legacyMode){
+					                     ^
+
+dojo.js.uncompressed.js:1438: WARNING - unreachable code
+				if( 0  && legacyMode){
+				                     ^
+
+dojo.js.uncompressed.js:1523: WARNING - unreachable code
+				if( 0  && module.plugin && module.plugin.isCombo){
+				                                                 ^
+
+dojo.js.uncompressed.js:1559: WARNING - unreachable code
+				if( 0  && legacyMode && !waiting[mid]){
+				                                      ^
+
+dojo.js.uncompressed.js:1599: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:1696: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:1708: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:1775: WARNING - unreachable code
+		if( 0  && args[1]===defaultDeps){
+		                                ^
+
+dojo.js.uncompressed.js:1809: WARNING - unreachable code
+				if( 0  && !targetModule){
+				                        ^
+
+dojo.js.uncompressed.js:1819: WARNING - unreachable code
+			if( 0  && isArray(targetModule)){
+			                                ^
+
+dojo.js.uncompressed.js:1837: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:1867: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:1897: WARNING - unreachable code
+		if( 0 ){
+		       ^
+
+dojo.js.uncompressed.js:1904: WARNING - unreachable code
+		if( 0 ){
+		       ^
+
+dojo.js.uncompressed.js:1909: WARNING - unreachable code
+	if( 0  && req.combo && req.combo.plugins){
+	                                         ^
+
+dojo.js.uncompressed.js:1923: WARNING - unreachable code
+	if(! 1 ){
+	        ^
+
+0 error(s), 37 warning(s)
+Done (compile time:4.318s)
+
+
+Process finished normally
+	errors: 0
+	warnings: 8
+	build time: 67.617 seconds

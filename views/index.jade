@@ -1,0 +1,19 @@
+doctype 5
+html
+  head
+    title Best Bad Ideas
+    script(type="text/javascript")
+      dojoConfig = {
+        baseUrl: '/lib',
+        packages: [
+          { name: 'dojo', location: 'dojo' },
+          { name: 'app', location: 'app' }
+        ]
+      };
+    script(type="text/javascript", src="/lib/dojo/dojo.js")
+    script(type="text/javascript")
+      require(['app/main'], function () {
+        console.log('require');
+      });
+  body
+    h1 Best Bad Ideas
