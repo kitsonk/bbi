@@ -2,16 +2,20 @@
   "name": "bbi",
   "version": "0.1.0",
   "dependencies": {
-    "express": "~3.2.4",
+    "express": "~3.2.6",
     "jade": "~0.30.0",
     "stylus": "~0.32.1",
     "colors": "~0.6.0-1",
     "nib": "~0.9.1"
   },
   "engines": {
-  	"node": "0.10.x",
-  	"npm": "1.2.x"
+    "node": "0.10.x",
+    "npm": "1.2.x"
   },
+  "repositories": [{
+    "type": "git",
+    "url": "https://github.com/kitsonk/bbi.git"
+  }],
   "main": "server",
   "readmeFilename": "README.md",
   "dojoBuild": "package.js"
